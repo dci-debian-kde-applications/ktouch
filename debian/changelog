@@ -1,5 +1,6 @@
-ktouch (4:4.6.90-0ubuntu1) UNRELEASED; urgency=low
+ktouch (4:4.6.90+repack-0ubuntu1) UNRELEASED; urgency=low
 
   * Initial release (moved out of ktouch)
+  * Repack upstream source to include a copy of the FDL
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Wed, 06 Jul 2011 12:32:17 +0200
