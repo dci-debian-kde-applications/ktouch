@@ -1,0 +1,5 @@
+ktouch (4:4.6.90-0ubuntu1) UNRELEASED; urgency=low
+
+  * Initial release (moved out of ktouch)
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Wed, 06 Jul 2011 12:32:17 +0200
