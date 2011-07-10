@@ -3,6 +3,4 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DKDEEDU_KTOUCH_BUILD_WITH_PHONON=ON \
-        $(conf_args)
-
+	$(overridden_command) -- -DKDEEDU_KTOUCH_BUILD_WITH_PHONON=ON
