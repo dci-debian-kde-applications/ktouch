@@ -1,25 +1,5 @@
-ktouch (4:4.7.1-0ubuntu2) oneiric; urgency=low
+ktouch (4:4.7.2-0r0) UNRELEASED; urgency=low
 
-  * No-change rebuild so translations aren't stripped from .desktop
-    files anymore.
+  * Initial release. Start from the Kubuntu packaging, thanks!
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:03:18 +0200
-
-ktouch (4:4.7.1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release
-
- -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Fri, 09 Sep 2011 23:53:36 -0400
-
-ktouch (4:4.7.0-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release. 
-
- -- Philip Muškovac <yofel@kubuntu.org>  Sun, 24 Jul 2011 23:35:13 +0200
-
-ktouch (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
-
-  * Initial release (moved out of ktouch)
-  * Repack upstream source to include a copy of the FDL
-
- -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 11 Jul 2011 00:00:09 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Sep 2011 01:03:18 +0200
