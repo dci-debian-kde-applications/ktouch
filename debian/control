@@ -13,7 +13,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/ktouch.git
 
 Package: ktouch
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ktouch-data (>= ${source:Version})
 Suggests: khelpcenter4
 Description: touch typing tutor for KDE
  KTouch is an aid for learning how to type with speed and accuracy.  It
@@ -23,5 +23,14 @@ Description: touch typing tutor for KDE
  A collection of lessons are included for a wide range of different languages
  and keyboard layouts, and typing statistics are used to dynamically adjust the
  level of difficulty.
+ .
+ This package is part of the KDE education module.
+
+
+Package: ktouch-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: data files for ktouch
+ This package contains the architecture-independent data files for ktouch.
  .
  This package is part of the KDE education module.
