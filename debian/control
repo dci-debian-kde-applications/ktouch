@@ -29,6 +29,8 @@ Description: touch typing tutor for KDE
 
 Package: ktouch-data
 Architecture: all
+Breaks: ktouch (<< 4:4.7.2)
+Replaces: ktouch (<< 4:4.7.2)
 Depends: ${misc:Depends}
 Description: data files for ktouch
  This package contains the architecture-independent data files for ktouch.
