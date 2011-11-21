@@ -26,7 +26,6 @@ Description: touch typing tutor for KDE
  .
  This package is part of the KDE education module.
 
-
 Package: ktouch-data
 Architecture: all
 Breaks: ktouch (<< 4:4.7.2)
