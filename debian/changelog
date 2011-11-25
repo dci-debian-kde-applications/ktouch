@@ -1,8 +1,19 @@
-ktouch (4:4.7.3-0ubuntu1) UNRELEASED; urgency=low
+ktouch (4:4.7.3-0ubuntu1) precise; urgency=low
 
   * New upstream release
+  * Merge with Debian Git
+   - ktouch-data replaces/breaks ktouch << 4.7.3
 
- -- Philip Muškovac <yofel@kubuntu.org>  Tue, 01 Nov 2011 15:00:55 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Nov 2011 23:47:05 +0000
+
+ktouch (4:4.7.2-0r1) UNRELEASED; urgency=low
+
+  * Initial release. Start from the Kubuntu packaging, thanks!
+
+  [ Eshat Cakar ]
+  * Add ktouch-data package.
+  
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Oct 2011 18:55:10 +0200
 
 ktouch (4:4.7.1-0ubuntu2) oneiric; urgency=low
 
