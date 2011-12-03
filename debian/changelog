@@ -1,8 +1,8 @@
-ktouch (4:4.7.2-0r1) UNRELEASED; urgency=low
+ktouch (4:4.7.2-0r1) experimental; urgency=low
 
   * Initial release. Start from the Kubuntu packaging, thanks!
 
   [ Eshat Cakar ]
   * Add ktouch-data package.
   
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Oct 2011 18:55:10 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:45:43 -0300
