@@ -1,6 +1,7 @@
 ktouch (4:4.7.95-0ubuntu1) UNRELEASED; urgency=low
 
   * New upstream release candidate
+  * bump breaks/replaces of ktouch-data on ktouch
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 24 Dec 2011 21:05:49 +0100
 
