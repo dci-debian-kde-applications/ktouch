@@ -1,4 +1,4 @@
-ktouch (4:4.7.95-0ubuntu1) UNRELEASED; urgency=low
+ktouch (4:4.7.95-0ubuntu1) precise; urgency=low
 
   * New upstream release candidate
   * bump breaks/replaces of ktouch-data on ktouch
