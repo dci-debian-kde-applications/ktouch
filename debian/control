@@ -9,8 +9,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.95),
  kdelibs5-dev (>= 4:4.7)
 Standards-Version: 3.9.2
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/ktouch/ubuntu
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/ktouch/ubuntu
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/ktouch
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/ktouch
 X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/ktouch.git
 X-Debian-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/ktouch.git
 
