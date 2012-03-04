@@ -1,4 +1,10 @@
-ktouch (4:4.8.0-0ubuntu1) UNRELEASED; urgency=low
+ktouch (4:4.8.1-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 20:57:40 +0100
+
+ktouch (4:4.8.0-0ubuntu1) precise; urgency=low
 
   * New upstream release
 
