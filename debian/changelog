@@ -1,3 +1,9 @@
+ktouch (4:4.8.80-0ubuntu1~ppa1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 06 Jun 2012 16:00:48 +0100
+
 ktouch (4:4.8.2-0ubuntu1) precise; urgency=low
 
   * new upstream release
