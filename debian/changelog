@@ -7,6 +7,7 @@ ktouch (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3, no changes required.
   * Add watch file.
   * Convert copyright to copyright-format v1.0 and fix/update.
+  * Simplify ktouch-data.install.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jun 2012 16:14:20 +0200
 
