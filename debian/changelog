@@ -1,3 +1,9 @@
+ktouch (4:4.9.1-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 04 Sep 2012 15:22:27 +0530
+
 ktouch (4:4.9.0-0ubuntu1) quantal; urgency=low
 
   * Use direct build-depends versions rather than kde-sc-dev-latest
