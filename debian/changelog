@@ -1,3 +1,9 @@
+ktouch (4:4.9.2-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 01 Oct 2012 14:55:24 +0100
+
 ktouch (4:4.9.1-0ubuntu1) quantal; urgency=low
 
   * New upstream release
