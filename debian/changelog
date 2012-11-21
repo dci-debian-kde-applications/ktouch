@@ -3,6 +3,9 @@ ktouch (4:4.9.80-0ubuntu1) UNRELEASED; urgency=low
   [ Jonathan Riddell ]
   * Initial upstream beta release of the rewritten ktouch
 
+  [ Jonathan Kolberg ]
+  * Add build-dep on libqt4-opengl-dev
+
   [ Scott Kitterman ]
   * Update ktouch.install and ktouch-data.install to match new application
   * Update debian/copyright
