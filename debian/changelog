@@ -1,9 +1,13 @@
 ktouch (4:4.9.80-0ubuntu1) UNRELEASED; urgency=low
 
-  * New upstream beta release
-  * New upstream beta release
+  [ Jonathan Riddell ]
+  * Initial upstream beta release of the rewritten ktouch
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 16:08:25 +0000
+  [ Scott Kitterman ]
+  * Update ktouch.install and ktouch-data.install to match new application
+  * Update debian/copyright
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 21 Nov 2012 10:41:35 -0500
 
 ktouch (4:4.9.3-0ubuntu1) raring; urgency=low
 

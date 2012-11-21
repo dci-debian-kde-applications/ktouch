@@ -1,2 +1,9 @@
 usr/bin/ktouch
+usr/lib/kde4/imports/org/kde/ktouch/graph/BarGraph.qml
+usr/lib/kde4/imports/org/kde/ktouch/graph/Label.qml
+usr/lib/kde4/imports/org/kde/ktouch/graph/LegendItem.qml
+usr/lib/kde4/imports/org/kde/ktouch/graph/LineGraph.qml
+usr/lib/kde4/imports/org/kde/ktouch/graph/LineLabel.qml
+usr/lib/kde4/imports/org/kde/ktouch/graph/libgraphplugin.so
+usr/lib/kde4/imports/org/kde/ktouch/graph/qmldir
 usr/share/applications/kde4/ktouch.desktop
