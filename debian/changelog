@@ -1,4 +1,4 @@
-ktouch (4:4.9.80-0ubuntu1) UNRELEASED; urgency=low
+ktouch (4:4.9.80-0ubuntu1) raring; urgency=low
 
   [ Jonathan Riddell ]
   * Initial upstream beta release of the rewritten ktouch
@@ -10,7 +10,7 @@ ktouch (4:4.9.80-0ubuntu1) UNRELEASED; urgency=low
   * Update ktouch.install and ktouch-data.install to match new application
   * Update debian/copyright
 
- -- Scott Kitterman <scott@kitterman.com>  Wed, 21 Nov 2012 10:41:35 -0500
+ -- Jonathan Kolberg <bulldog98@kubuntu.org>  Wed, 21 Nov 2012 17:30:35 +0100
 
 ktouch (4:4.9.3-0ubuntu1) raring; urgency=low
 
