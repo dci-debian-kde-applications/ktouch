@@ -17,14 +17,13 @@ Copyright: Andreas Kalbitz
             Sven Gohlke
 License: GPL-2
 
-Files: data/courses/nl2.xml
-Files: data/data.xml
-Copyright 2004 by Marc Heyvaert (marc_heyvaert AT yahoo DOT com)
+Files: data/courses/nl2.xml data/data.xml
+Copyright: 2004 by Marc Heyvaert (marc_heyvaert AT yahoo DOT com)
 License: GPL-2
 
 Files: debian/*
 Copyright: 2011, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Copyright: 2011, Harald Sitter <apachelogger@ubuntu.com>
+           2011, Harald Sitter <apachelogger@ubuntu.com>
 License: GPL-2+
 
 License: GPL-2+

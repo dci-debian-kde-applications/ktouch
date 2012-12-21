@@ -1,6 +1,11 @@
 ktouch (4:4.9.95-0ubuntu1) UNRELEASED; urgency=low
 
+  [ Jonathan Riddell ]
   * New upstream RC release
+
+  [ Philip Muškovac ]
+  * Build-depend on libxkbfile-dev for keyboard layout detection
+  * Fix syntax of debian/copyright
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:41:14 +0000
 
