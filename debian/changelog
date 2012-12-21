@@ -1,4 +1,4 @@
-ktouch (4:4.9.95-0ubuntu1) UNRELEASED; urgency=low
+ktouch (4:4.9.95-0ubuntu1) raring; urgency=low
 
   [ Jonathan Riddell ]
   * New upstream RC release
@@ -118,7 +118,7 @@ ktouch (4:4.7.3-0ubuntu1) precise; urgency=low
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Nov 2011 23:47:05 +0000
 
-ktouch (4:4.7.2-0r1) UNRELEASED; urgency=low
+ktouch (4:4.7.2-0r1) raring; urgency=low
 
   * Initial release. Start from the Kubuntu packaging, thanks!
 
