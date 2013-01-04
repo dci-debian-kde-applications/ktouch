@@ -61,6 +61,7 @@ usr/share/kde4/apps/ktouch/images/resizegrip.svgz
 usr/share/kde4/apps/ktouch/images/statusled.svgz
 usr/share/kde4/apps/ktouch/images/trainingscreen.svgz
 usr/share/kde4/apps/ktouch/keyboardlayouts/ara.xml
+usr/share/kde4/apps/ktouch/keyboardlayouts/be.xml
 usr/share/kde4/apps/ktouch/keyboardlayouts/bg.xml
 usr/share/kde4/apps/ktouch/keyboardlayouts/br.xml
 usr/share/kde4/apps/ktouch/keyboardlayouts/ch.fr.xml
@@ -100,7 +101,7 @@ usr/share/kde4/apps/ktouch/keyboardlayouts/us.colemak.xml
 usr/share/kde4/apps/ktouch/keyboardlayouts/us.dvorak.xml
 usr/share/kde4/apps/ktouch/keyboardlayouts/us.xml
 usr/share/kde4/apps/ktouch/qml/AccuracyMeter.qml
-usr/share/kde4/apps/ktouch/qml/Baloon.qml
+usr/share/kde4/apps/ktouch/qml/Balloon.qml
 usr/share/kde4/apps/ktouch/qml/CharactersPerMinuteMeter.qml
 usr/share/kde4/apps/ktouch/qml/CourseDescriptionItem.qml
 usr/share/kde4/apps/ktouch/qml/CoursePage.qml
