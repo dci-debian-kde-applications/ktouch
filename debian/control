@@ -14,7 +14,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/ktouch.git
 
 Package: ktouch
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ktouch-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, ktouch-data (>= ${source:Version}), libqt4-sql-sqlite
 Suggests: khelpcenter4
 Description: touch typing tutor for KDE
  KTouch is an aid for learning how to type with speed and accuracy.  It
