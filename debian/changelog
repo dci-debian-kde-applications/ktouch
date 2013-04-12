@@ -10,6 +10,9 @@ ktouch (4:4.10.1-0r0) UNRELEASED; urgency=low
     the user profile database.
   * Update copyright file.
 
+  [ Pino Toscano ]
+  * Update Uploaders.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Mar 2013 00:09:36 +0100
 
 ktouch (4:4.8.4-1) unstable; urgency=low
