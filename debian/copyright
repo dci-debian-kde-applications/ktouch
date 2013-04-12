@@ -6,7 +6,7 @@ Source: ftp.kde.org
 Files: *
 Copyright: 2000-2007, Håvard Frøiland <haavard@users.sourceforge.net>
            2003-2007, Andreas Nicolai <ghorwin@users.sourceforge.net>
-           2010. Andriy Rysin <rysin@kde.org>
+           2010, Andriy Rysin <rysin@kde.org>
            2011-2012, Sebastian Gottfried <sebastiangottfried@web.de>
            2012, Marco Martin <mart@kde.org>
 License: GPL-2+
@@ -14,6 +14,7 @@ License: GPL-2+
 Files: doc/*
 Copyright: 1999-2007, Håvard Frøiland <haavard@users.sourceforge.net>
            1999-2007, Andreas Nicolai <ghorwin@users.sourceforge.net>
+           2011-2012, Sebastian Gottfried <sebastiangottfried@web.de>
 License: GFDL-NIV-1.2+
 
 Files: debian/*
