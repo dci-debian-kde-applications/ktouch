@@ -3,21 +3,20 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Eshat Cakar <info@eshat.de>
-Build-Depends: 
+Uploaders: Eshat Cakar <info@eshat.de>,
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.1),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.10.2), libqt4-opengl-dev,
- libxkbfile-dev
-Standards-Version: 3.9.2
+ kdelibs5-dev (>= 4:4.10.1), libqt4-opengl-dev, libxkbfile-dev
+Standards-Version: 3.9.3
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/ktouch
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/ktouch
-X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/ktouch.git
-X-Debian-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/ktouch.git
+X-Vcs-Debian-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/ktouch.git
+X-Vcs-Debian-Git: git://git.debian.org/pkg-kde/kde-sc/ktouch.git
 
 Package: ktouch
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ktouch-data (>= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, ktouch-data (>= ${source:Version}), libqt4-sql-sqlite
 Suggests: khelpcenter4
 Description: touch typing tutor for KDE
  KTouch is an aid for learning how to type with speed and accuracy.  It
@@ -32,8 +31,8 @@ Description: touch typing tutor for KDE
 
 Package: ktouch-data
 Architecture: all
-Breaks: ktouch (<< 4:4.7.95), jovie (<< 4:4.7.90)
-Replaces: ktouch (<< 4:4.7.95), jovie (<< 4:4.7.90)
+Breaks: ktouch (<< 4:4.7.2)
+Replaces: ktouch (<< 4:4.7.2)
 Depends: ${misc:Depends}
 Description: data files for ktouch
  This package contains the architecture-independent data files for ktouch.
