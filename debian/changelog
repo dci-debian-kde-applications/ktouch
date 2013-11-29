@@ -1,8 +1,8 @@
-ktouch (4:4.11.97-0ubuntu1) UNRELEASED; urgency=low
+ktouch (4:4.11.97-0ubuntu1) trusty; urgency=low
 
   * New upstream RC release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 28 Nov 2013 10:17:00 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:28:21 +0000
 
 ktouch (4:4.11.95-0ubuntu1) trusty; urgency=low
 
