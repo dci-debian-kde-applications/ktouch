@@ -2,11 +2,14 @@ Source: ktouch
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Eshat Cakar <info@eshat.de>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11), libqt4-opengl-dev, libxkbfile-dev
+Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libqt4-opengl-dev,
+               libxkbfile-dev,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/ktouch.git
@@ -14,7 +17,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/ktouch.git
 
 Package: ktouch
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ktouch-data (>= ${source:Version}), libqt4-sql-sqlite
+Depends: ktouch-data (>= ${source:Version}),
+         libqt4-sql-sqlite,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Suggests: khelpcenter4
 Description: touch typing tutor for KDE
  KTouch is an aid for learning how to type with speed and accuracy.  It
