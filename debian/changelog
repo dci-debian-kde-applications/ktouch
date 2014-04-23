@@ -1,4 +1,4 @@
-ktouch (4:4.13.0-0ubuntu2) UNRELEASED; urgency=medium
+ktouch (4:4.13.0-0ubuntu1.1) trusty; urgency=medium
 
   * Add dependency on qtdeclarative4-kqtquickcharts-1 as the qml module
     is needed for anything to be displayed. LP: #1310019
