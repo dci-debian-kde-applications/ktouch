@@ -1,9 +1,9 @@
-ktouch (4:4.13.1-1) UNRELEASED; urgency=medium
+ktouch (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 20 May 2014 17:32:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 May 2014 18:36:48 +0200
 
 ktouch (4:4.12.4-1) unstable; urgency=medium
 
