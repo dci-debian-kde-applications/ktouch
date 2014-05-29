@@ -19,6 +19,7 @@ Package: ktouch
 Architecture: any
 Depends: ktouch-data (>= ${source:Version}),
          libqt4-sql-sqlite,
+         qtdeclarative4-kqtquickcharts-1,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: khelpcenter4
