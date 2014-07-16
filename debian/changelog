@@ -1,3 +1,9 @@
+ktouch (4:4.13.3-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 12:54:27 +0200
+
 ktouch (4:4.13.1-2) unstable; urgency=medium
 
   * Add missing dependency qtdeclarative4-kqtquickcharts-1.
