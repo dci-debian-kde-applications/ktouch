@@ -1,3 +1,9 @@
+ktouch (4:4.13.90-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 17 Jul 2014 15:52:36 -0700
+
 ktouch (4:4.13.2-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
