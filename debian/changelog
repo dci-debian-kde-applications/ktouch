@@ -1,6 +1,10 @@
 ktouch (4:4.13.90-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Add appdata file
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 17 Jul 2014 15:52:36 -0700
 
