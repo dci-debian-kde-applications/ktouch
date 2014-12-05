@@ -1,3 +1,11 @@
+ktouch (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
+
+  * New upstream RC release
+  * Merge with Debian, remaining changes:
+   - not-installed
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 01 Dec 2014 18:03:47 +0100
+
 ktouch (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).
@@ -65,43 +73,61 @@ ktouch (4:4.13.2-0ubuntu1) utopic; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jun 2014 10:42:00 +0100
 
+ktouch (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 06:15:48 -0700
+
+ktouch (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:39:42 +0200
+
+ktouch (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 13:27:12 +0200
+
+ktouch (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 17:14:47 +0200
+
+ktouch (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 18:39:59 +0200
+
+ktouch (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Add appdata file
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 23:30:58 +0200
+
+ktouch (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Merge with Debian:
+   - Add dependency on qtdeclarative4-kqtquickcharts-1 as the qml module
+     is needed for anything to be displayed. LP: #1310019
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jun 2014 10:42:00 +0100
+
 ktouch (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 20 May 2014 18:36:48 +0200
-
-ktouch (4:4.13.0-0ubuntu1.1) trusty; urgency=medium
-
-  * Add dependency on qtdeclarative4-kqtquickcharts-1 as the qml module
-    is needed for anything to be displayed. LP: #1310019
-
- -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 22 Apr 2014 11:47:08 +0200
-
-ktouch (4:4.13.0-0ubuntu1) trusty; urgency=medium
-
-  * New upstream KDE Software Compilation release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:17:55 +0100
-
-ktouch (4:4.12.97-0ubuntu1) trusty; urgency=medium
-
-  * New upstream release candidate
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:44:49 +0200
-
-ktouch (4:4.12.95-0ubuntu1) trusty; urgency=medium
-
-  * New upstream beta release
-
- -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:44:41 +0100
-
-ktouch (4:4.12.90-0ubuntu1) trusty; urgency=medium
-
-  * New upstream beta release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 11:31:12 +0000
 
 ktouch (4:4.12.4-1) unstable; urgency=medium
 
@@ -151,6 +177,37 @@ ktouch (4:4.10.4-1) experimental; urgency=low
   * Add myself to uploaders.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 14:31:13 +0200
+
+ktouch (4:4.13.0-0ubuntu1.1) trusty; urgency=medium
+
+  * Add dependency on qtdeclarative4-kqtquickcharts-1 as the qml module
+    is needed for anything to be displayed. LP: #1310019
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 22 Apr 2014 11:47:08 +0200
+
+ktouch (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:17:55 +0100
+
+ktouch (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:44:49 +0200
+
+ktouch (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:44:41 +0100
+
+ktouch (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 11:31:12 +0000
 
 ktouch (4:4.12.3-0ubuntu1) trusty; urgency=medium
 
@@ -492,3 +549,4 @@ ktouch (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Repack upstream source to include a copy of the FDL
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 11 Jul 2011 00:00:09 +0200
+
