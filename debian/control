@@ -22,7 +22,7 @@ Depends: ktouch-data (>= ${source:Version}),
          qtdeclarative4-kqtquickcharts-1,
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: touch typing tutor for KDE
  KTouch is an aid for learning how to type with speed and accuracy.  It
  provides a sample text to type and indicates which fingers should be used for
