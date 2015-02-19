@@ -7,9 +7,9 @@ ktouch (4:14.12.2-1~) UNRELEASED; urgency=medium
 ktouch (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-    
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:56:42 -0800
 
 ktouch (4:14.12.0-0ubuntu1) vivid; urgency=medium
@@ -468,7 +468,7 @@ ktouch (4:4.8.2-0ubuntu1) precise; urgency=low
 
 ktouch (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 20:57:40 +0100
 
@@ -511,8 +511,8 @@ ktouch (4:4.7.4-2) unstable; urgency=low
 
 ktouch (4:4.7.4-1) experimental; urgency=low
 
-  * New upstream release. 
-  
+  * New upstream release.
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
   * Add myself to Uploaders.
@@ -533,7 +533,7 @@ ktouch (4:4.7.2-1) experimental; urgency=low
 
   [ Eshat Cakar ]
   * Add ktouch-data package.
-  
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:45:43 -0300
 
 ktouch (4:4.7.2-0r1) raring; urgency=low
@@ -542,7 +542,7 @@ ktouch (4:4.7.2-0r1) raring; urgency=low
 
   [ Eshat Cakar ]
   * Add ktouch-data package.
-  
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Oct 2011 18:55:10 +0200
 
 ktouch (4:4.7.1-0ubuntu2) oneiric; urgency=low
@@ -560,7 +560,7 @@ ktouch (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
 ktouch (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 24 Jul 2011 23:35:13 +0200
 
@@ -570,4 +570,3 @@ ktouch (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Repack upstream source to include a copy of the FDL
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 11 Jul 2011 00:00:09 +0200
-
