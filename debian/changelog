@@ -1,10 +1,17 @@
-ktouch (4:15.12.3-1~1.gbpb69173) UNRELEASED; urgency=medium
+ktouch (4:15.12.3-1~2.gbp273ad4) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @273ad41e40c7991e674c9502a6e0a532e0147cbd **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @b69173a520c0a94b6d4946ecac8b5d0b10646a82 **
 
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:49:23 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 10:48:17 +0200
 
 ktouch (4:15.08.3-1) unstable; urgency=medium
 
