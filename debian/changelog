@@ -1,9 +1,9 @@
-ktouch (4:16.08.0-0r1) UNRELEASED; urgency=medium
+ktouch (4:16.08.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Aug 2016 23:47:30 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 23:56:47 +0200
 
 ktouch (4:15.12.3-1) unstable; urgency=medium
 
