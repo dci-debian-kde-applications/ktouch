@@ -1,10 +1,11 @@
-ktouch (4:16.08.1-1~1.gbp1018ab) UNRELEASED; urgency=medium
+ktouch (4:16.08.2-1~1.gbp3b26f2) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @1018aba30135e953272efe850db864e94177c6a7 **
+  ** SNAPSHOT build @3b26f2ad642e44d8fb595b948bd50e28d9c9a12c **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Pino Toscano <jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 21:48:37 +0200
+ -- Pino Toscano <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 21:48:31 +0200
 
 ktouch (4:16.08.0-1) unstable; urgency=medium
 
