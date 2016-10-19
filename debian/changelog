@@ -1,17 +1,9 @@
-ktouch (4:16.08.2-1~2.gbp2c0f5e) UNRELEASED; urgency=medium
+ktouch (4:16.08.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @2c0f5ecc4949b0f69facdcb057252867994e8b15 **
-
-  [ Pino Toscano ]
-  ** SNAPSHOT build @3b26f2ad642e44d8fb595b948bd50e28d9c9a12c **
-
-  * UNRELEASED
-  * UNRELEASED
-
-  [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
   * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 14 Oct 2016 22:44:49 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 12:34:10 +0200
 
 ktouch (4:16.08.0-1) unstable; urgency=medium
 
