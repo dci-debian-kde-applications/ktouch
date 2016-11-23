@@ -1,10 +1,8 @@
-ktouch (4:16.08.3-1~1.gbp3fe552) UNRELEASED; urgency=medium
+ktouch (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @3fe552626f485a3dc0edac81ca1da85c653f431b **
+  * New upstream release (16.08.3)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 21:48:26 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 21:17:22 +0100
 
 ktouch (4:16.08.2-1) unstable; urgency=medium
 
