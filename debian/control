@@ -18,8 +18,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/ktouch.git
 Package: ktouch
 Architecture: any
 Depends: ktouch-data (>= ${source:Version}),
-         libqt4-sql-sqlite,
-         qtdeclarative4-kqtquickcharts-1,
+         libqt5sql5-mysql,
+         qml-module-org-kde-charts,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: khelpcenter
