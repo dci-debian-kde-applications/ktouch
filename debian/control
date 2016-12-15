@@ -5,11 +5,27 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.14),
-               libqt4-opengl-dev,
+               extra-cmake-modules,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
+               libkf5declarative-dev,
+               libkf5i18n-dev,
+               libkf5itemviews-dev,
+               libkf5kcmutils-dev,
+               libkf5kio-dev,
+               libkf5newstuff-dev,
+               libkf5texteditor-dev,
+               libkf5widgetsaddons-dev,
+               libkf5windowsystem-dev,
+               libkf5xmlgui-dev,
+               libqt5x11extras5-dev,
+               libxcb-xkb-dev,
                libxkbfile-dev,
-               pkg-kde-tools (>= 0.12)
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qtscript5-dev
 Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/ktouch.git
@@ -17,12 +33,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/ktouch.git
 
 Package: ktouch
 Architecture: any
-Depends: ktouch-data (>= ${source:Version}),
-         libqt5sql5-mysql,
-         qml-module-org-kde-charts,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Suggests: khelpcenter
+Depends: ktouch-data (>= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: touch typing tutor for KDE
  KTouch is an aid for learning how to type with speed and accuracy.  It
  provides a sample text to type and indicates which fingers should be used for
@@ -36,8 +47,6 @@ Description: touch typing tutor for KDE
 
 Package: ktouch-data
 Architecture: all
-Breaks: ktouch (<< 4:4.7.2)
-Replaces: ktouch (<< 4:4.7.2)
 Depends: ${misc:Depends}
 Description: data files for ktouch
  This package contains the architecture-independent data files for ktouch.
