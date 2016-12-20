@@ -50,7 +50,10 @@ Description: touch typing tutor for KDE
 Package: ktouch-data
 Architecture: all
 Depends: qml-module-org-kde-charts,
+         qml-module-org-kde-kcoreaddons,
          qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtgraphicaleffects,
+         qml-module-qtquick-controls,
          qml-module-qtquick-controls2,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
