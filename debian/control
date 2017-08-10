@@ -58,6 +58,8 @@ Depends: qml-module-org-kde-charts,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
          ${misc:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: data files for ktouch
  This package contains the architecture-independent data files for ktouch.
  .

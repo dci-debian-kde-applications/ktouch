@@ -1,5 +1,5 @@
 usr/share/config.kcfg/ktouch.kcfg
-usr/share/doc/HTML/en/ktouch/
+usr/share/doc/HTML/*/ktouch/
 usr/share/icons/hicolor/
 usr/share/ktouch/courses/
 usr/share/ktouch/data.xml
@@ -7,4 +7,6 @@ usr/share/ktouch/images/
 usr/share/ktouch/keyboardlayouts/
 usr/share/ktouch/qml/
 usr/share/ktouch/schemata/
+usr/share/locale/
+usr/share/man/*/man1/ktouch.1
 usr/share/man/man1/ktouch.1
