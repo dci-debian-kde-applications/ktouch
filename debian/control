@@ -3,9 +3,10 @@ Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.0.0~),
+               libkf5completion-dev,
                libkf5config-dev,
                libkf5configwidgets-dev,
                libkf5coreaddons-dev,
@@ -17,17 +18,18 @@ Build-Depends: cmake,
                libkf5kio-dev,
                libkf5newstuff-dev,
                libkf5texteditor-dev,
+               libkf5textwidgets-dev,
                libkf5widgetsaddons-dev,
                libkf5windowsystem-dev,
                libkf5xmlgui-dev,
-               libqt5x11extras5-dev,
-               libqt5xmlpatterns5-dev,
+               libqt5x11extras5-dev (>= 5.5~),
+               libqt5xmlpatterns5-dev (>= 5.5~),
                libxcb-xkb-dev,
                libxkbfile-dev,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev,
-               qtdeclarative5-dev,
-               qtscript5-dev,
+               qtbase5-dev (>= 5.5~),
+               qtdeclarative5-dev (>= 5.5~),
+               qtscript5-dev (>= 5.5~),
 Standards-Version: 4.1.0
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/ktouch.git
