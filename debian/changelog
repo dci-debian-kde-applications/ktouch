@@ -7,6 +7,7 @@ ktouch (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove trailing whitespaces in changelog.
   * Remove unused build dependencies: libkf5kio-dev, libkf5newstuff-dev, and
     libkf5texteditor-dev.
+  * Explicitly add the pkg-config build dependency.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Dec 2017 21:39:54 +0100
 
