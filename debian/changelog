@@ -5,6 +5,8 @@ ktouch (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
   * Remove trailing whitespaces in changelog.
+  * Remove unused build dependencies: libkf5kio-dev, libkf5newstuff-dev, and
+    libkf5texteditor-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Dec 2017 21:39:54 +0100
 
