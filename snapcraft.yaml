@@ -1,0 +1,53 @@
+---
+name: ktouch
+version: 17.08.1
+summary: Learn typing without looking for keys
+description: KTouch is a typewriter trainer for learning to touch type. It provides
+    you with text to train on and adjusts to different levels depending on how good
+    you are. It displays your keyboard and indicates which key to press next and which
+    is the correct finger to use. You learn typing with all fingers, step by step,
+    without having to look down at the keyboard to find your keys. It is convenient
+    for all ages and the perfect typing tutor for schools, universities, and personal
+    use. KTouch ships with dozens of different courses in many languages and a comfortable
+    course editor. Different keyboard layouts are supported and new user-defined layouts
+    can be created. During training, KTouch collects comprehensive statistical information
+    to help you or your teacher to analyze your progress.
+confinement: strict
+grade: stable
+apps:
+    ktouch:
+        command: kf5-launch ktouch
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    ktouch:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - libkf5doctools-dev
+        - libxcb-xkb-dev
+        - libxkbfile-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/ktouch-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
